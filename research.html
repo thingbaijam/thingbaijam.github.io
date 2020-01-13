@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+  <!-- meta information -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <!-- internet explorer: remove this line if using the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="keywords" content="earthquake, earthquake-source physics, srcmod database, source inversion,
+			ground motion simulations, seismicity, seismic hazard analysis, engineering seismology, paper" />
+  <!-- responsiveness -->
+  <meta name="viewport" content="width=device-width" />
+  <title>thingbaijam, kiran kumar - research</title>
+</head>
+    
+<!-- stylesheets -->
+<style>
+html, body {margin:0; padding:0; padding-bottom:15px;min-height:1000px;}
+
+.header{
+   position: relative; margin-left:auto; margin-right:auto;
+   background: no-repeat center; background-image: url("banner1.JPG");
+   width:100%;height:300px; text-align:left; vertical-align:text-bottom;
+   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; font-size: 16px; 
+   background-repeat:no-repeat; padding: 0 0 0 0; top:0; left:0; 
+   background-size: cover; background-color:#E6E8F5; 
+}
+
+.header span{
+   position:absolute; bottom:0; left:12%;
+   font-weight:bold; color:#FFFFFF; font-size:16px;
+}
+
+.mainmenu{
+   padding-top:10px; position: relative; margin-left:auto; margin-right:auto;
+   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+   font-weight: bold; font-size: 18px; 
+   width:100%; height:50px; text-align: center; color:#000000; 
+}
+
+.notepad{
+   position: relative; margin-left:12%; margin-right:auto;
+   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+   font-weight: normal; font-size: 16px; width:60%; 
+   text-align:left; min-height:100px; min-width:400px;
+}
+
+.footer{
+   position: absolute; bottom: 0px; margin-left:auto; margin-right:auto;
+   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+   font-weight: normal; font-size: 12px; width:100%; text-align: center;
+}
+
+.research{ text-align:left; display:inline-block;}
+
+.research a{
+   text-decoration:none; 
+   target="_blank";
+}
+
+
+</style>
+
+<body>
+   <!-- banner -->
+   <div class="header"><span>Kiran Kumar S. Thingbaijam</span></div> 
+   
+   <!-- Menu -->
+   <div class="mainmenu">
+        <a href="index.html" style="text-decoration: none; color:#12159A;">HOME</a>&nbsp;&nbsp;&nbsp;
+	<span  style="text-decoration: none; color:#898988;">RESEARCH</span>&nbsp;&nbsp;&nbsp;
+        <a href="outreach.html" style="text-decoration: none; color:#12159A;">OUTREACH</a>&nbsp;&nbsp;&nbsp;
+	<a href="papers.html" style="text-decoration: none; color:#12159A;">PUBLICATIONS</a>   
+   </div>
+
+   <div class="notepad" style="min-height:1000px;">
+	<p>
+	The following list summarizes my research efforts and related projects.
+	A general outlook has been considered to prepare this list.  
+	</p>   
+	<div class="research">
+		<p><b>
+		Machine Learning of Seismotectonics
+		</b></p>		
+		<img src="mlseismo.png" style ="height:150px; width:180px; float:left; margin-right:15px;"/>
+		<p>
+		To growing explore the abundent avaibilty of seismicity, application of Machine Learning (ML) tools
+                are considered to advance our understanding of seismotectonics. 
+		Key topics include: investigation of rupture characteristics of historical earthquakes, delineating active-fault seismicity, 
+		and assessment of spatiotemporal seismicity. 
+		</p><p>
+		This research project is currently at an initial stage. It is envisaged that the ML algorithms will allow unravel interesting patterns in the observed seismicity. 
+		</p>
+	</div>
+	<!------------------------------------------------------>
+	<div class="research">
+		<p><b>
+		Advancing Earthquake-Source Knowledge
+		</b></p>		
+		<img src="eqsource.png" style ="height:110px; width:180px; float:left; margin-right:15px;"/>
+		<p>
+		Advancing our knowledge of earthquake-source is crucial for reliable seismic-tsunami hazard calculations. 
+		For complete and comphresive modeling, We consider not only geometrical parameters, 
+		but also those of spatiotemporal evolution of slip.  
+		</p><p>
+		We investigate source-scaling properties, and characteristics of the slip distribution using the SRCMOD database. 
+		These properties vary in different faulting regimes, controlled by tectonic settings 
+		such as seismogenic depth/width, and fault-dip angle. We also explore dynamic models derived from simulations
+		 of spontaneous ruptures, to examine the kinematic parameters (namely, rise time, rupture velocity, 
+		peak slip velocity). By reconciling the findings from source inversions and those from dynamic models, 
+		we aim at developing a holistic framework to describe the earthquake ruptures. 
+		</p>
+	</div>
+<!---------------------------------------------------- -->	
+	<div class="research">
+		<p><b>
+		Generating Ground Shaking Scenario
+		</b></p>
+		<img src="smoothkernel.PNG" style=" height:150px; width:180px; float:left; margin-right:15px;" />
+		<p> 
+		A new workflow is developed to generate regional-scale realistic earthquake-shaking scenario. It adapts
+		the widely-used <a href="https://earthquake.usgs.gov/data/shakemap/" style="text-decoration:none;" target="_blank;"> ShakeMap approach </a>.
+		</p>
+		<p>
+		Here, kernel convolution approximation 
+		(kernel smoothing of Gaussian noise field) 
+		is used to simulate ground motion residuals. 
+		This approach is significantly faster than conventionally applied one, namely covariance matrix decomposition 
+		(or generally referred to as Cholesky decomposition) technique. Furthermore, spatial conditioning can be achieved by 
+		combining the unconditioned stochastic model with kriging interpolations. <br/>
+		[to be updated...]
+		</p>
+		 
+	</div>
+	<!---------------------------------------------------- -->	
+	<div class="research">
+		<p><b>
+		Advanced Pseudo-dynamic Rupture Model Generator
+		</b></p>
+		  <img src="krupgen.png" style ="height:110px; width:180px; float:left; margin-right:15px;"/>
+		<p>
+		We integrate the latest research findings in a new workflow, for pseudo-dynamic rupture modeling 
+		which emulate physically consistent properties of dynamic ruptures. 
+		The workflow implements a stochastic approach that reduces computational time compared to dynamic modeling 
+		for effective multiple realizations of rupture models. 
+		Closely linked with earthquake-source research, the new implementation is expected to supercede 
+		the existing <a href="http://equake-rc.info/cers-software/" target="_blank">rupgen</a> tool. 
+		It will be also accessible on the <a href="https://github.com/thingbaijam/"> GitHub repository </a>
+		</p>
+	</div>	
+	
+	<div class="research">
+		<p><b>
+		The eQuake-RC Platform for International Collaborative Research on Earthquake Source
+		</b></p>
+		<a href="http://equake-rc.info" target="_blank">
+		<img src="equakerc.PNG" style="float:left; height:220px; width:180px; margin-right:15px;"/>
+		</a>
+		<p>
+		Along with Prof. Martin Mai, I continue to develop and maintain this online platform. The website provides open 
+		data-resources, shared among potential users and providers, for advancing earthquake science.</p>
+		<p>
+		Key features include: (1) <a href="http://equake-rc.info/srcmod/" target="_blank">SRCMOD database </a> that collect and disseminate rupture models in 
+		consistent data format. (2) <a href="http://equake-rc.info/siv/" target="_blank">Source Inversion Validation (SIV) benchmark database</a> and tools 
+		to investigate uncertainty in earthquake source inversions; and (3) <a href="http://equake-rc.info/cers/" target="_blank">Codes for Earthquake 
+		Rupture and ground-motion Simulation (CERS)</a> that provide assemble of software packages.</p>
+		<p>We welcome your suggestions/feedback/contribution to improve the <a href="http://equake-rc.info" target="_blank">eQuake-RC</a> platform. </p>
+	</div>
+	<div class="research">
+		<p><b>
+		
+		New Probabilistic Seismic Hazard Model for India 
+		</b></p>
+		<a href="https://pubs.geoscienceworld.org/ssa/srl/article-abstract/83/1/135/143990/" target="_blank">
+		<img src="pshaindia.png" style="float:left; height:220px; width:180px; margin-right:15px;"/>
+		</a>		
+		<p>
+		This project comprise most work that I carried out for my PhD disseration 
+		(2007-2011, Department of Geology & Geophysics, Indian Institute of Technology Kharagpur). 
+		An updated seismic hazard model for India was imperative, 
+		given rapid urbanization and burgeoning population of the country. Existing one was older than a decade. 
+		</p>
+		<p>
+ 		The following were accomplised:
+		(1) compilation of an earthquake catalog, covering period: 0162−2008; 
+		(2) delineation of seismogenic sources using the catalog, focal mechanism data, 
+		fault map, and palaeoseismic findings; 
+		(3) development of seismicity models; 
+		(4) nation-wide investigation of site conditions, using data from microzonation 
+		   projects and topographic-slope map;  
+		(5) selection and ranking of ground motion prediction equations for different tectonic provinces. 
+		The hazard components were integrated using a logic tree framework to implement 
+		probabilistic seismic hazard analysis.
+		</p><p>
+		Recently, the model has been revised by 
+		<a href="https://github.com/nackerley/indian-subcontinent-psha/" target="_blank">
+		Nick Ackerley</a> and adopted in the 
+		<a href="https://www.globalquakemodel.org/gem/" target="_blank"> 
+		Global Earthquake Hazard Model.</a></p>		
+	</div>
+		
+   </div> <!-- div note -->
+
+   <div class="notepad">
+	<div class="footer"> January, 2020 | Email: thingbaijam@gmail.com </div>
+   </div>
+
+</body>
+</html>
+
+
+
+
