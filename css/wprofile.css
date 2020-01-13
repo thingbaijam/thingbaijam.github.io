@@ -1,0 +1,29 @@
+
+.header{
+   position: relative; margin-left:auto; margin-right:auto;
+   background: no-repeat center; background-image: url("banner1.JPG");
+   width:100%;height:300px; text-align:center;
+   background-repeat:no-repeat; padding: 0 0 0 0; top:0; left:0; 
+   background-size: cover; background-color:#E6E8F5; 
+}
+
+.mainmenu{
+   padding-top:10px; position: relative; margin-left:auto; margin-right:auto;
+   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+   font-weight: bold; font-size: 18px; 
+   width:100%; height:50px; text-align: center; color:#000000; 
+}
+
+.notepad{
+   position: relative; margin-left:12%; margin-right:auto;
+   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+   font-weight: normal; font-size: 16px; width:60%; 
+   text-align:left; min-height:100px; min-width:420px;
+}
+
+.footer{
+   position: absolute; bottom: 0px; margin-left:auto; margin-right:auto;
+   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+   font-weight: normal; font-size: 12px; width:100%; text-align: center;
+}
+
