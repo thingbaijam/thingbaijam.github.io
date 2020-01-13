@@ -31,7 +31,7 @@
    position: absolute; bottom: 0px; margin-left:auto; margin-right:auto;
    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
    font-weight: normal; font-size: 12px; width:100%; text-align: center;  
-   min-width:420px;
+   min-width:420px; display: inline-block;
 }
 
 
