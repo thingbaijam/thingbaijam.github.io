@@ -35,7 +35,7 @@
 }
 
 
-.research{ text-align:left; display:inline-block;}
+.research{ text-align:left; display:inline-block; float:right;}
 
 .research a{
    text-decoration:none; 
