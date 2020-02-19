@@ -24,9 +24,9 @@
 .notepad{
    position: relative; margin-left:12%; margin-right:auto;
    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
-   font-weight: normal; font-size: 16px; width:65%; 
+   font-weight: normal; font-size: 16px; width:63%; 
    padding-top:20px;
-   text-align:left; min-height:100px; min-width:350px;
+   text-align:left; min-height:100px; min-width:400px;
 }
 
 .footer{
